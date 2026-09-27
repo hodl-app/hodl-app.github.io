@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>HODL累積帳戶 已搬家</title>
+<link rel="canonical" href="https://app.hodltw.com/">
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0B1017;color:#E6EDF3;font-family:system-ui,-apple-system,"PingFang TC","Noto Sans TC",sans-serif;padding:24px;box-sizing:border-box}
+.c{max-width:420px;line-height:1.7}
+h1{font-size:22px;margin:0 0 12px}
+a.b{display:block;text-align:center;background:#22D3EE;color:#0B1017;font-weight:700;text-decoration:none;padding:14px;border-radius:12px;margin:18px 0}
+p{margin:8px 0;color:#9FB0C0;font-size:15px}
+b{color:#E6EDF3}
+</style>
+</head>
+<body>
+<div class="c">
+<h1>HODL累積帳戶 已搬家</h1>
+<p>新網址：<b>app.hodltw.com</b></p>
+<a class="b" href="https://app.hodltw.com/">前往新網址</a>
+<p>你的資料都在雲端，用<b>原本的帳號密碼</b>登入就能看到。</p>
+<p>如果你有把 App 加到主畫面：請在新網址重新「加入主畫面」，再刪掉舊的圖示。推播提醒也要在新網址重新開啟。</p>
+<p id="t">5 秒後自動前往…</p>
+</div>
+<script>
+try{if('serviceWorker' in navigator)navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.unregister()})});if(window.caches)caches.keys().then(function(k){k.forEach(function(n){caches.delete(n)})})}catch(e){}
+setTimeout(function(){location.replace('https://app.hodltw.com/')},5000);
+</script>
+</body>
+</html>
